@@ -26,6 +26,6 @@
 <div class="concept">INDEPENDENT WEBSITE CONCEPT · NOT AN OFFICIAL SANTOS ROOFING WEBSITE</div>
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();
-document.getElementById('leadForm').addEventListener('submit',function(e){e.preventDefault();const d=new FormData(this);const subject=encodeURIComponent('Roofing enquiry from '+d.get('name'));const body=encodeURIComponent('Name: '+d.get('name)+'\nEmail: '+d.get('email')+'\nService: '+d.get('service')+'\nMessage: '+d.get('message'));window.location.href='mailto:?subject='+subject+'&body='+body;});
+document.getElementById('leadForm').addEventListener('submit',function(e){e.preventDefault();const d=new FormData(this);const subject=encodeURIComponent('Roofing enquiry from '+d.get('name'));const body=encodeURIComponent('Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nService: '+d.get('service')+'\nMessage: '+d.get('message'));window.location.href='mailto:?subject='+subject+'&body='+body;});
 </script>
 </body></html>
